@@ -1,0 +1,83 @@
+url: "http://sstctf.org"
+baseurl: ""
+
+
+title: SSTCTF.ORG
+
+
+description: The Home of School of Science and Technology's CTF and Computer Club
+
+
+navbar-links:
+  Schedule: "schedule"
+  Lessons: "http://sstctf.org/lessons"
+  GitHub: "http://github.com/sstctf"
+
+
+avatar: "/img/icon.png"
+
+# 33333D, 373740, F0F0F0, 222222, FF5643
+
+
+navbar-col: "#33333D" 
+navbar-text-col: "#F0F0F0"
+navbar-children-col: "#33333D"
+page-col: "#F0F0F0"
+link-col: "#FF5643"
+hover-col: "#47FF8B"
+footer-col: "#33333D"
+footer-text-col: "#F0F0F0"
+footer-link-col: "#FF5643"
+
+author:
+  name: School of Science and Technology
+
+url-pretty: "SSTCTF.ORG"  
+excerpt_length: 50
+
+
+title-separator: "-"
+
+
+timezone: "America/Vancouver"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+
+kramdown:
+  input: GFM
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      social-share: true 
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: true
+
+
+link-tags: true
+
+
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - Vagrantfile
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap

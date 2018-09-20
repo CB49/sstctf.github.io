@@ -1,1 +1,1 @@
-# wow its our website
+# SST CTF Website
