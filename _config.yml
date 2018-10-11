@@ -9,9 +9,10 @@ description: The Home of School of Science and Technology's CTF and Computer Clu
 
 
 navbar-links:
-  Schedule: "schedule"
+  Schedule: "https://sstctf.org/schedule"
   Lessons: "http://sstctf.org/lessons"
   GitHub: "http://github.com/sstctf"
+  Online Shell: "https://ssh.sstctf.org/"
 
 
 avatar: "/img/icon.png"
